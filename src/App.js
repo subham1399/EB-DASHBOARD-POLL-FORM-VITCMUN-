@@ -11,7 +11,7 @@ class App extends Component {
     Description:"",
     raised_by:"" 
 
-  };
+  };//For updating all input fields
  
   handleChangeAgenda = event => {
    // console.log(event.target.value);
