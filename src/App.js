@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
-
+//import React, { useState } from 'react';
 import './App.css';
+//import './country.css';
+//import PropTypes from 'prop-types';
+//import FuzzySearch from 'fuzzy-search';
 import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
-
+//import {pollform} from './components/pollform'
+import {CountryFlags} from './components/countryFlag'
+/*class App extends Component {
+render() {
+  return (
+    <div className="App">
+    <pollform/>
+    </div>
+  );
+}
+}*/
 class App extends Component {
   state={
     Agenda:"",
     Type:"",
-    Total_Speaker_Time:"" ,
+    Total_Speaker_Time: "",
     Description:"",
     raised_by:"" 
 
@@ -16,10 +29,7 @@ class App extends Component {
   handleChangeAgenda = event => {
    // console.log(event.target.value);
     this.setState({ Agenda: event.target.value});
-    /*this.setState({ Type: event.target.value});
-    this.setState({ Total_Speaker_Time: event.target.value});
-    this.setState({ Description: event.target.value});
-    this.setState({ raised_by: event.target.value});*/
+    
   };
 
   handleChangeType = event => {
@@ -86,8 +96,8 @@ class App extends Component {
   
 
 
-             <div class="div1" ><b>UNHRC</b><br/>
-             <div class="div11" ><b>Countries</b></div><br/>
+             <div className="div1"><CountryFlags/><br/>
+             
             
              
              </div><br/>

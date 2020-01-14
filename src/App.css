@@ -82,12 +82,12 @@
 .div1 {
   width: 300px;
   height: 1800px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   margin-left: 1000px;
   height:620px;
-  border-color: #F6DBA6;
-  border-radius: 50px;
-  border-style: solid;
+  /*border-color: #F6DBA6;*/
+  /*border-radius: 50px;*/
+  /*border-style: solid;*/
   border-width: 5px;
   font-family: Nunito;
   color:#F6DBA6;
