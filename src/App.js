@@ -5,8 +5,9 @@ import './App.css';
 //import PropTypes from 'prop-types';
 //import FuzzySearch from 'fuzzy-search';
 import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
+import Sidebar from './components/sidebar';
 //import {pollform} from './components/pollform'
-import {CountryFlags} from './components/countryFlag'
+import {CountryFlags} from './components/countryFlag';
 /*class App extends Component {
 render() {
   return (
@@ -63,30 +64,7 @@ class App extends Component {
          
 
       
-         <div class="container">
-  <input data-function="swipe" id="swipe" type="checkbox"/>
-  <label data-function="swipe" for="swipe"><span class="close"></span></label>
-  <label data-function="swipe" for="swipe"><span class="hamburger"></span></label>
- 
- 
-  <div class="sidebar"><br/><br/>
-    <nav class="menu">
-  
-      <img class="img1"   src="black1.png" alt="MUN"/><br/>
-      
-      <li ><a href="#">Home</a></li>
-      <li><a href="#">XYZ</a></li>
-
-
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      
-    </nav>
-  </div>
-  
-</div>
+    <div><Sidebar /></div>
 
 
         
@@ -149,10 +127,8 @@ class App extends Component {
               <br/>
                 <div class="imp">
                 
-		<input type="checkbox" id="checkbox-1-1" class="regular-checkbox" style={{marginRight:"200px",marginLeft:"-185px" ,marginTop:"0px",maxWidth:"1440px"}} />
-    <div class="size" >
-    <label ><b>IMPORTANT</b></label></div>
-    </div>
+	</div>
+    
 
     
 <div id="menuBall1" class="menuBall" >

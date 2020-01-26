@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './pollform.css';
 import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
 
- class pollform extends Component{
+ class Pollform extends Component{
 //class App extends Component {
   state={
     Agenda:"",
@@ -54,30 +54,11 @@ import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
          
 
       
-         <div class="container">
-  <input data-function="swipe" id="swipe" type="checkbox"/>
-  <label data-function="swipe" for="swipe"><span class="close"></span></label>
-  <label data-function="swipe" for="swipe"><span class="hamburger"></span></label>
+  
  
  
-  <div class="sidebar"><br/><br/>
-    <nav class="menu">
+  <div> <Sidebar/></div>
   
-      <img class="img1"   src="black1.png" alt="MUN"/><br/>
-      
-      <li ><a href="#">Home</a></li>
-      <li><a href="#">XYZ</a></li>
-
-
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      <li><a href="#">XYZ</a></li>
-      
-    </nav>
-  </div>
-  
-</div>
 
 
         
@@ -140,10 +121,7 @@ import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
               <br/>
                 <div class="imp">
                 
-		<input type="checkbox" id="checkbox-1-1" class="regular-checkbox" style={{marginRight:"200px",marginLeft:"-185px" ,marginTop:"0px",maxWidth:"1440px"}} />
-    <div class="size" >
-    <label ><b>IMPORTANT</b></label></div>
-    </div>
+	</div>
 
     
 <div id="menuBall1" class="menuBall" >
@@ -169,4 +147,4 @@ import {Button , Form , FormGroup , Label , Input} from 'reactstrap';
     );
   }
 }
-export default pollform;
+export default Pollform;

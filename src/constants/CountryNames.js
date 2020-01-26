@@ -1,8 +1,8 @@
-const CountryImages = [
+const CountryNames = [
     {
       source: 'india3.jpg',
       name: 'India',
     },
   ];
   
-  export { CountryImages };
+  export { CountryNames };

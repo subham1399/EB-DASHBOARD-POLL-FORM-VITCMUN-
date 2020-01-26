@@ -7,25 +7,26 @@
 }
 .Flag:hover{
     display: none;
+    
 }
 .Flag:hover + .countryName{
     display: inherit;
 }
 .Flag{
     border-radius: 50px;
-    width:80px;
-    height:auto;
-    margin-left: 37px;
-    margin-right: 37px;
+    width:70px;
+    height:70px;
+    margin-left:37px;
+    margin-right: 180px;
 }
 .countryName{
     padding: 0px;
     font-size: 20px;
     margin-left: 50px;
-    margin-right: 28px;
+    margin-right: 174px;
     width:80px;
     margin-top: 27px;
-    text-align: center;
+    /*text-align: center;*/
     display: none;
 }
 .CountriesMenu {
@@ -76,7 +77,11 @@
     color: #F6DBA6;
     margin-top: 25px;
     margin-bottom: 11px;
-    width: 80px;
+    width: 70px;
     margin-right: 14px;
     margin-left: 14px;
   }
+.Selected{
+    opacity: 0.3;
+}
+

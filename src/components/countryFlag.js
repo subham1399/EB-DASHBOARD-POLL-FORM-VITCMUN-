@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './countryFlags.css';
 import FuzzySearch from 'fuzzy-search';
-import CountryNames from '../constants/CountryNames';
+import {CountryNames} from '../constants/CountryNames';
 
 // Recommended Width and Height
 // width: 355px;
@@ -55,6 +55,8 @@ const CountryFlags = props => {
       );
     }
     return <img src={country.source} className="Flag" alt={country.name} />;
+   
+  
   };
 
   const handleKeyPress = (event, country) => {
@@ -102,17 +104,17 @@ const CountryFlags = props => {
         </div>
       </div>
       <div className="CountryProfilesArea">{countryImages}</div>
-      <div style={{marginTop:"-35px",marginRight:"200px",fontSize:"20px"}}>
+      <div style={{marginTop:"-35px",marginRight:"200px",fontSize:"15px"}}>
       <button className="selectorCountry" style={{marginTop:"-20px"}} onClick={clearAll} type="button">
         Clear All
       </button>
       </div>
-      <div style={{marginTop:"-70px",marginRight:"-180px",fontSize:"20px"}}>
+      <div style={{marginTop:"-70px",marginRight:"-180px",fontSize:"17px"}}>
       <button className="selectorCountry" onClick={getSelected} type="button">
         Submit
       </button>
       </div>
-      <div style={{marginTop:"-25px",fontSize:"18px"}}>
+      <div style={{marginTop:"-70px",fontSize:"15px"}}>
       <button className="selectorCountry" onClick={selectAll} type="button">
         Select All
       </button></div>

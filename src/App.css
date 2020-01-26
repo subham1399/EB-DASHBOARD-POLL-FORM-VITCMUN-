@@ -87,11 +87,11 @@
   height:620px;
   /*border-color: #F6DBA6;*/
   /*border-radius: 50px;*/
-  /*border-style: solid;*/
-  border-width: 5px;
-  font-family: Nunito;
+  /* border-style: solid;
+  /* border-width: 5px; */
+    /* font-family: Nunito;
   color:#F6DBA6;
-  font-size: 32px;
+  font-size: 32px; */
 }
 .div11{
   color:#34434A;
@@ -122,7 +122,7 @@
   /*change border colour*/
   border:1px #9f2e86 solid;
   background-color: #F6DBA6;
-  margin-right: -970px;
+  margin-right: -950px;
   height: 70px;
   width:200px;
   margin-top: -10px;
